@@ -1,0 +1,14 @@
+#!/bin/bash
+
+INPUT=""
+while [-z 
+INPUT=$(zenity --forms --title="SZUKAJKA" \
+	       --text="Wprowadz dane pliku." \
+	       --separator=',' \
+	       --add-entry="Nazwa Pliku:" \
+	       --add-entry="Katalog:" \
+	       --add-entry="Rozmiar:" \
+	       --add-entry="Wlasciciel:" \
+	       --add-entry="Zawartosc:");
+
+
